@@ -16,7 +16,9 @@ public class Score : MonoBehaviour {
 
 	void Update ()
 	{
-		text.text = PinCount.ToString();
+	
+        keepData.PlayerScore = PinCount;
+        text.text = PinCount.ToString();
 	}
 
 }
